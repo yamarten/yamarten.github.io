@@ -10,17 +10,17 @@
   ],
   "verificationMethod": [
     {
-      "id": "#atproto",
+      "id": "did:web:yamarten.github.io#atproto",
       "type": "Multikey",
       "controller": "did:web:yamarten.github.io",
-      "publicKeyMultibase": "zQ3shXjHeiBuRCKmM36cuYnm7YEMzhGnCmCyW92sRJ9pribSF"
+      "publicKeyMultibase": "zQ3shR87pRk3R8Vf5QVFfwCMoRLB8TgfdbTBK3kCktXeKG4AU"
     }
   ],
   "service": [
     {
       "id": "#atproto_pds",
       "type": "AtprotoPersonalDataServer",
-      "serviceEndpoint": "https://bsky.social"
+      "serviceEndpoint": "https://porcini.us-east.host.bsky.network"
     }
   ]
 }
